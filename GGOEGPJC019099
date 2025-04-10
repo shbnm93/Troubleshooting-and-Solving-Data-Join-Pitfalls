@@ -1,0 +1,5 @@
+SELECT DISTINCT
+  v2ProductName,
+  productSKU
+FROM `data-to-insights.ecommerce.all_sessions_raw`
+WHERE productSKU = 'GGOEGPJC019099'
