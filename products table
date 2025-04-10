@@ -1,0 +1,6 @@
+SELECT
+  SKU,
+  name,
+  stockLevel
+FROM `data-to-insights.ecommerce.products`
+WHERE SKU = 'GGOEGPJC019099'
