@@ -1,0 +1,6 @@
+SELECT
+  productSKU,
+  ARRAY_AGG(DISTINCT v2ProductName) AS push_all_names_into_array
+FROM `data-to-insights.ecommerce.all_sessions_raw`
+WHERE productSKU = 'GGOEGAAX0098'
+GROUP BY productSKU
