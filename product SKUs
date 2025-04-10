@@ -1,0 +1,6 @@
+#standardSQL
+# how many products are on the website?
+SELECT DISTINCT
+productSKU,
+v2ProductName
+FROM `data-to-insights.ecommerce.all_sessions_raw`
