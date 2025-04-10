@@ -1,0 +1,6 @@
+#standardSQL
+# find the count of unique SKUs
+SELECT
+DISTINCT
+productSKU
+FROM `data-to-insights.ecommerce.all_sessions_raw`
